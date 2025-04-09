@@ -1,12 +1,10 @@
 
 ```cmd
 cd C:\Python27
-python --version
+python.exe --version
 git clone https://github.com/haythem-rehouma/RL.git
 cd C:\Python27\RL
-python3 -m venv mon_env_python2
-mon_env_python2\Scripts\activate -p C:\Python27\python.exe mon_env_python2
-
+C:\Python27\python.exe gridworld.py -a value -i 100 -k 10
 ```
 
 # Troubleshooting
