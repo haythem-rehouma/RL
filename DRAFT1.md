@@ -1,3 +1,16 @@
+
+```cmd
+cd C:\Python27
+python --version
+cd C:\Python27\RL
+python3 -m venv mon_env_python2
+mon_env_python2\Scripts\activate -p C:\Python27\python.exe mon_env_python2
+
+```
+
+# Troubleshooting
+
+
 ```cmd
 C:\Python27>python --version ou C:\Python27\python.exe --version
 C:\Python27> pip install virtualenv (si nécessaire dans un autre path pas dans celui de python2)
